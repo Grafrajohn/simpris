@@ -8,4 +8,4 @@ The sytem uses the MySQL database thought there is an early stage bramch for use
 Code will soon be released for Simpris under the GNU license.
 
 ## How to set up Simpris
-First crete th database from the supplied scripts
+First create the database from the supplied scripts
