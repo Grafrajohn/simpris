@@ -6,3 +6,6 @@ Simpris is a general purpose project management system which is designed to be u
 The sytem uses the MySQL database thought there is an early stage bramch for use with PostGres.
 
 Code will soon be released for Simpris under the GNU license.
+
+## How to set up Simpris
+First crete th database from the supplied scripts
