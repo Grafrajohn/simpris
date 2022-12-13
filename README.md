@@ -15,9 +15,26 @@ The system uses the MySQL database thought there is an early stage branch for us
 Code will soon be released for Simpris under the GNU license.
 
 ## How to set up Simpris
-### Create database
-First create the database from the supplied scripts
-### Populate the lookup tables
-### Create Django superuser
-### Configure SendGrid or other email provider
-### Start managing your projects!
+### 1. Create database
+- Create a MySQL database called simpris or similar
+- Either:
+    - Run Django migrations against the database objects
+- Or:
+  - From the scripts in the Database-Objects-MySQL folder
+    - Build the tables 
+    - Build the views
+    - Build the stored procedures
+    - Build the functions
+
+### 2. Populate the lookup tables
+Use MySQL Workbench or similar to import data from files in the DataLoad folder:
+- lookup-type.csv
+- lookup.csv
+ 
+### 3. Create Django superuser
+If not already done create the Django superuser in the normal way
+
+### 4. Deploy the Django code
+- Configure SendGrid or other email provider
+- Configure database connection
+- Start managing your projects!
